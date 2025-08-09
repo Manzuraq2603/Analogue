@@ -14,6 +14,10 @@ li {
 a {
     text-decoration: none;
 }
+*::selection{
+    background-color: #be360d;
+    color: #fff;
+}
 
 body {
     background-color: #fff;
@@ -33,6 +37,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
 }
+/* NAVBAR */
 
 .site-header {
     padding-top: 24px;
@@ -88,5 +93,45 @@ body {
 .site-header__link:active {
     opacity: 0.6;
 }
+
+/* HERO */
+.hero {
+    padding-top: 100px;
+    padding-bottom: 64px;
+}
+
+
+.hero-title {
+    max-width: 935px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.25;
+    letter-spacing: 0.2px;
+    margin-bottom: 12px;
+}
+
+.hero__circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+}
+
+.hero__description-wrapper {
+    max-width: 736px;
+    width: 100%;
+    display: flex;
+    gap: 41px;
+    margin-left: auto;
+    
+}
+
+.hero__description {
+    max-width: 348px;
+    width: 100%;
+   
+}
+
 
 /* font-family: "Libre Baskerville", serif; */
