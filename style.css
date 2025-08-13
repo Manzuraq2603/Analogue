@@ -187,7 +187,7 @@ body {
 .slash-grey {
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
-    color: #E0DFDC;
+    color: #e0dfdc;
     font-size: 15px;
     line-height: 1.6;
     letter-spacing: 0.4px;
@@ -204,12 +204,49 @@ body {
 .btn {
     padding: 9px 32px;
     background-color: #1f1f1f;
-   color: #fff;
+    color: #fff;
     font-weight: 400;
     font-size: 17px;
     line-height: 1.5;
     letter-spacing: 0.2px;
     text-align: center;
+}
+
+/* CLIENTS */
+
+.clients {
+    padding-bottom: 104px;
+    padding-top: 80px;
+    margin-bottom: 8px;
+    background-color: #f7f6f3;
+}
+
+.clients__title {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 1.28;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 36px;
+    color: #1F1F1F;
+}
+
+.clients__horizontal-line {
+}
+.clients__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-left: 67px;
+    padding-right: 47px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+}
+.clients__img {
+    margin-left: auto;
+   
 }
 
 /* font-family: "Libre Baskerville", serif; */
