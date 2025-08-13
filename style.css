@@ -228,11 +228,9 @@ body {
     letter-spacing: 0.2px;
     text-align: center;
     margin-bottom: 36px;
-    color: #1F1F1F;
+    color: #1f1f1f;
 }
 
-.clients__horizontal-line {
-}
 .clients__list {
     display: flex;
     justify-content: space-between;
@@ -242,11 +240,33 @@ body {
     padding-right: 47px;
     padding-top: 15px;
     padding-bottom: 15px;
-   
 }
 .clients__img {
     margin-left: auto;
-   
 }
+
+/* CONTACT */
+
+.contact {
+    background-color: #e0f391;
+    padding-top: 48px;
+    padding-bottom: 40px;
+}
+
+.contact__horizontal-line {
+    background-color: #6d6b67;
+}
+.contact__bottom-wrapper {
+    padding-top: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact__title3 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+}
+
 
 /* font-family: "Libre Baskerville", serif; */
